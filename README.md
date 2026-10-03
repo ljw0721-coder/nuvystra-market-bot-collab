@@ -24,6 +24,8 @@ James intends to use mobile GPT alongside the current development work. James se
 
 A public read link does not provide repository write access. This package grants no merge, deployment, wallet connection/signature, real key generation, funded order or spending authority. Current data collection warm-up and deployed service readiness must be verified separately. Long-window values require real retained history. Additional metrics are proposals only, not selected work.
 
+Operational status note (2026-10-03): the trading bot is not in a live-running state yet. Server/DB/price connectivity can be healthy while BTC 1-minute decision indicators remain empty and order execution stays disabled. Collector connection to the existing Cloudflare account has not started in this snapshot and must be explicitly approved before implementation begins.
+
 ## Reading the excerpts
 
 Supporting imports reference files not included here. Engine and wizard sections are intentionally partial. Do not assume this package is sufficient to build or safely deploy the whole service. If a missing dependency is needed, ask for that specific file or function rather than assume its behavior.
